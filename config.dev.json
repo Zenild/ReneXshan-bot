@@ -12,24 +12,23 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "𝙼𝚘𝚌𝚑𝚊 [ - ]",
-  "prefix": "-",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [
+    "100085224643381",
+    "",
+    "61555850156098",
+    ""
+  ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
-    "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
+    "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "whiteListModeThread": {
-    "enable": false,
-    "whiteListThreadIds": [],
-    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
-  },
+  "nickNameBot": "R E N É  B O T",
+  "prefix": "/",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -37,18 +36,18 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Manila",
+  "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "kramn1205@gmail.com",
-      "clientId": "407168939339-ni7uvp8054bpnht4280n6d3no4qrf3mv.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//041Aj0DBzlyxuCgYIARAAGAQSNwF-L9IrSJFfXahDmIC5CaNNthQwg0yT8ZrFaUUofZBR13qsh-nNBLi7_4LZMlZ00F8AiWo6Moo",
+      "email": "zenildelutu@gmail.com",
+      "clientId": "672960197002-ln72t8jkaq9flu7fgv93rlfk6pj71est.apps.googleusercontent.com",
+      "clientSecret": "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",
+      "refreshToken": "1//04mX9YPMdTMA0CgYIARAAGAQSNwF-L9IroO-8N8tUYbjXsHk5vGbqTMhqdpntwXwENGCC-hHLJcGRgZ_dTVYbO_SsSZO1xuDTmTg",
       "apiKey": ""
     },
     "gRecaptcha": {
-      "siteKey": "6LdtgYMoAAAAABS1V6_RlEsUXf7dNLIzbc4EPhbt",
-      "secretKey": "6LdtgYMoAAAAAKXtH5f06qZBq28VXXqOb6rOSGQ5"
+      "siteKey": "6Lee9x8pAAAAABGmSwL6NBjTlDvyTf7ZCV2McnhH",
+      "secretKey": "6Lee9x8pAAAAAHuhd7bcvxRmYtt75B0RNUXlz9R8"
     }
   },
   "dashBoard": {
@@ -70,8 +69,8 @@
     "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
   },
   "autoUptime": {
-    "enable": false,
-    "timeInterval": 180,
+    "enable": null,
+    "timeInterval": 9999,
     "url": "",
     "notes": "the value of timeInterval is seconds, url is the url you want to send the request to (automatically detected for hosting glitch or replit)"
   },
@@ -139,7 +138,13 @@
     "selfListen": false,
     "selfListenEvent": true,
     "autoMarkDelivery": false,
-    "autoReconnect": false,
+    "autoReconnect": true,
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
+  },
+  "whiteListModeThread": {
+    "enable": false,
+    "whiteListThreadIds": [],
+    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
+    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
   }
 }
