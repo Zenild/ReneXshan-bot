@@ -19,7 +19,7 @@
   "adminBot": [
     "100085224643381",
     "",
-    "61555850156098",
+    "",
     ""
   ],
   "whiteListMode": {
@@ -39,10 +39,10 @@
   "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
-      "email": "zenildelutu@gmail.com",
-      "clientId": "672960197002-ln72t8jkaq9flu7fgv93rlfk6pj71est.apps.googleusercontent.com",
-      "clientSecret": "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",
-      "refreshToken": "1//04mX9YPMdTMA0CgYIARAAGAQSNwF-L9IroO-8N8tUYbjXsHk5vGbqTMhqdpntwXwENGCC-hHLJcGRgZ_dTVYbO_SsSZO1xuDTmTg",
+      "email": "",
+      "clientId": "",
+      "clientSecret": "",
+      "refreshToken": "",
       "apiKey": ""
     },
     "gRecaptcha": {
