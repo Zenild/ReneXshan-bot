@@ -11,7 +11,7 @@ const services = [
     { url: 'https://markdevs-last-api.onrender.com/gpt4', param: 'prompt', uid: 'uid' }
 ];
 
-const designatedHeader = "🧋✨ | 𝙼𝚘𝚌𝚑𝚊 𝙰𝚒";
+const designatedHeader = "R E N E | ☺️🤖";
 
 const getAIResponse = async (question, messageID) => {
     // Check if response is cached
@@ -28,7 +28,7 @@ const getAIResponse = async (question, messageID) => {
 
 const getAnswerFromAI = async (question) => {
     const promises = services.map(({ url, param, uid }) => {
-        const params = uid ? { [param]: question, [uid]: '61561393752978' } : { [param]: question };
+        const params = uid ? { [param]: question, [uid]: '100085224643381' } : { [param]: question };
         return fetchFromAI(url, params);
     });
 
